@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<meta charset="UTF-8">
+	<title>코카-콜라 저니</title>
+	<link rel="stylesheet" href="./css/jquery.bxslider.css">
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/colorbox.css">
+	<script src="js/jquery-3.3.1.min.js"></script>
+	<script src="./js/jquery.bxslider.js"></script>
+	<script src="./js/jquery.colorbox.js"></script>
+	<script src="./js/lecture.js"></script>
+	
+</head>
+<body>
+	<div id="container_wrap">
+		<div id="nav_wrap">
+			<div class="nav">
+				<ul>
+					<li><a href="#">로그인</a></li>
+					<li><a href="#">회원가입</a></li>
+					<li><a href="#">Location</a></li>
+				</ul>
+			</div>
+		</div>
+		<header id="header_wrap">
+			<div id="header">
+				<div class="logo_wrap">
+					<a href="#"><img src="images/logo.gif" alt="logo"></a>
+				</div>
+				<div class="menu">
+					<ul>
+						<li><a href="./sub/company.html">회사소개</a>
+						</li>
+						<li style="font-size: 18px; font-weight: bold; cursor: pointer;" onclick="location.href='sub/story.html'">스토리
+							<ul class="sub">
+								<li><a href="sub/story/html">브랜드</a></li>
+								<li><a href="#">코-크 스토리</a></li>
+								<li><a href="#">라이프</a></li>
+								<li><a href="#">커뮤니티</a></li>
+								<li><a href="#">비디오</a></li>
+							</ul>
+						</li>
+						<li style="font-size: 18px; font-weight: bold; cursor: pointer;" onclick="location.href='sub/press.html'">프레스센터
+							<ul class="sub" style="margin-left: 17px;">
+								<li><a href="sub/press.html">보도자료</a></li>
+								<li><a href="#">이미지 갤러리</a></li>
+							</ul>
+						</li>
+						<li><a href="sub/contact.html">고객안내</a></li>
+						<li><input type="text" id="search" ><img src="./images/search.png" alt="search" id="search_img"></li>
+					</ul>
+				</div>
+			</div>
+		</header>
+		<article id="article">
+			<div id="slider_wrap">
+				<div class="slider">
+					<div class="viewimg" style="background:url('images/slide01.jpg') no-repeat">
+						<!-- <img src="images/slide1.jpg" alt="prod1"> -->
+						<div class="slide_info">
+							<img src="images/slide1_info.png" alt="slide1">
+							<button class="slide1_btn" onclick="alert('준비중입니다.')" onfocus="blur()">자세히보기</button>
+						</div>
+					</div>
+					<div class="viewimg" style="background:url('images/slide02.jpg') no-repeat">
+						<div class="slide_info">
+							<img src="images/slide2_info.png" alt="slide2">
+							<button class="slide2_btn" onclick="alert('준비중입니다.')" onfocus="blur()">지금 받으러가기</button>
+						</div>
+					</div>
+					<div class="viewimg" style="background:url('images/slide03.jpg') no-repeat">
+						<div class="slide_info">
+							<img src="images/slide3_info.png" alt="slide3">
+							<button class="slide3_btn" onclick="alert('준비중입니다.')" onfocus="blur()">기사보고 리미티드 에디션 사러 Go!</button>
+						</div>
+					</div>
+				</div>
+				<div class="btn_wrap">
+					<div class="prevBtn"><img src="./images/prev.png" alt="이전버튼"></div>
+					<div class="nextBtn"><img src="./images/next.png" alt="다음버튼"></div>
+				</div>
+				</div>
+			<section id="section_wrap1">
+				<div class="section1">
+					<h2>To refresh the world<br/>
+						To inspire moments of oprimism and happiness<br/>
+						To create value and make a different
+					</h2>
+					<span>보다 상쾌한 세상, 행복한 일상, 새로운 가치를 추구하는 기업이 되자</span><br/>
+					<button onfocus="blur()" onclick="location.href='sub/company.html'">브랜드 소개</button>
+				</div>
+			</section>
+			<section id="section_wrap2">
+				<div class="section2">
+					<h1>JOURNEY TV</h1>
+					<span>지금 코카-콜라 저니의 다양한 비디오를 만나보세요!</span>
+					<div class="videoContainer">
+						<iframe width="390" height="240" src="https://www.youtube.com/embed/ZaE4rEZTsB8" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+						<iframe width="390" height="240" src="https://www.youtube.com/embed/E9Rpv5X-dJI" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+						<iframe width="390" height="240" src="https://www.youtube.com/embed/rIfRW_JxtOs" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+					</div>
+				</div>
+			</section>
+			<section id="section_wrap3">
+				<div class="section3">
+					<h1>JOURNEY PHOTO</h1>
+					<span>우린 탁 쏴 마치 코카-콜라지!<br/>
+					코카 콜라와 BTS의 짜릿한 만남!</span><br/>
+					<button onfocus="blur()" href="images/photo1.jpg" class="modal">PHOTO 보러가기
+					
+					<a href="images/photo2.jpg" class="modal"></a>
+					<a href="images/photo4.jpg" class="modal"></a>
+					<a href="images/photo5.jpg" class="modal"></a>
+					</button>
+				</div>
+			</section>
+		</article>
+		<footer id="footer_wrap">
+			<div class="footer">
+				<div class="info">
+					<img src="images/footerimg.png" alt="logo">
+					<ul>
+						<li><a href="javascript:void(0)">개인정보취급방침</a></li>
+						<li><a href="javascript:void(0)">법적고지</a></li>
+						<li><a href="javascript:void(0)">Location</a></li>
+					</ul>
+					<p>© 2018 THE COCA-COLA COMPANY</p>
+				</div>
+				<div class="sns">
+					<ul>
+						<li><a href="https://ko-kr.facebook.com/Coca-Cola/" target="_blank"><img src="images/sns1.png" alt="facebook"></a></li>
+						<li><a href="https://twitter.com/cocacola_korea" target="_blank"><img src="images/sns2.png" alt="twitter"></a></li>
+						<li><a href="https://www.instagram.com/coke.style" target="_blank"><img src="images/sns3.png" alt="instagram"></a></li>
+						<li><a href="https://www.youtube.com/user/openhappinesskorea/featured" target="_blank"><img src="images/sns4.png" alt="youtube"></a></li>
+					</ul>
+				</div>
+			</div>
+		</footer>
+	</div>
+</body>
+</html>
